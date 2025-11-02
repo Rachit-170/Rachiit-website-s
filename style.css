@@ -1,0 +1,14 @@
+/* body {
+     background: linear-gradient(90deg, orange, rgb(0, 255, 0));
+} */
+
+#mode {
+     height: 100px;
+     width: 100px;
+     margin-top: 20%;
+     margin-left: 50%;
+     color: white;
+     border-radius: 20px;
+     border: 0px;
+     background: linear-gradient(45deg, rgb(0, 255, 0), orange);
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ChatGPT Demo (Local)</title>
+  <style>
+    :root { --bg:#0b1220; --card:#071020; --accent:#7c3aed; --txt:#e8f0ff; --muted:#9fb0c8; }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:Inter,Arial; background:linear-gradient(180deg,#041025,#07122a); color:var(--txt); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px}
+    .app{width:100%; max-width:820px}
+    header{display:flex; gap:12px; align-items:center; margin-bottom:14px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01)); padding:14px;border-radius:12px; box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    .messages{height:420px; overflow:auto; padding:12px; border-radius:8px; background:rgba(255,255,255,0.02); margin-bottom:10px}
+    .msg{margin:8px 0; display:flex; gap:10px; align-items:flex-start}
+    .user{justify-content:flex-end}
+    .bubble{max-width:78%; padding:10px 12px; border-radius:12px; line-height:1.4}
+    .bubble.user{background:#18324a; border-top-right-radius:4px}
+    .bubble.bot{background:#0f2340; border-top-left-radius:4px}
+    .input-row{display:flex; gap:8px}
+    textarea{flex:1; min-height:48px; resize:none; padding:10px; border-radius:8px; border:0; background:#071627; color:var(--txt)}
+    button{background:var(--accent); color:white; border:0; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:600}
+    .muted{color:var(--muted); font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="logo">GPT</div>
+      <div>
+        <h2 style="margin:0">ChatGPT Demo</h2>
+        <div class="muted">Local demo — no API key required</div>
+      </div>
+    </header>
+
+    <div class="card">
+      <div id="messages" class="messages" aria-live="polite"></div>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <div class="muted">Tip: Try asking "What is ChatGPT?"</div>
+        <div class="muted">Model: demo</div>
+      </div>
+
+      <div class="input-row">
+        <textarea id="input" placeholder="Type your message..."></textarea>
+        <button id="send">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const messagesEl = document.getElementById('messages');
+    const input = document.getElementById('input');
+    const send = document.getElementById('send');
+
+    function appendMessage(text, who='bot') {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'msg ' + (who === 'user' ? 'user' : 'bot');
+      const bubble = document.createElement('div');
+      bubble.className = 'bubble ' + (who === 'user' ? 'user' : 'bot');
+      bubble.textContent = text;
+      wrapper.appendChild(bubble);
+      messagesEl.appendChild(wrapper);
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+    }
+
+    // Very simple rule-based "bot"
+    function demoReply(userText) {
+      const t = userText.toLowerCase().trim();
+      if (!t) return "Please type something.";
+      if (t.includes('what is chatgpt') || t.includes('define chatgpt')) {
+        return "ChatGPT is an AI language model that understands and generates human-like text using machine learning and NLP.";
+      }
+      if (t.includes('hello') || t.includes('hi')) return "Hello! How can I help you today?";
+      if (t.includes('code') || t.includes('javascript') || t.includes('python')) return "I can help with code. Tell me what you want to build.";
+      if (t.includes('thanks') || t.includes('thank')) return "You're welcome!";
+      // fallback
+      const replies = [
+        "Interesting — tell me more.",
+        "I see. What else?",
+        "Can you rephrase that?",
+        "Good question! Here's a short answer: it's complicated but doable."
+      ];
+      return replies[Math.floor(Math.random()*replies.length)];
+    }
+
+    function sendMessage() {
+      const text = input.value.trim();
+      if (!text) return;
+      appendMessage(text, 'user');
+      input.value = '';
+      // simulate thinking
+      appendMessage('Typing...', 'bot');
+      setTimeout(() => {
+        // remove the 'Typing...' last bot message
+        const all = messagesEl.querySelectorAll('.msg');
+        const last = all[all.length-1];
+        if (last && last.querySelector('.bubble').textContent === 'Typing...') last.remove();
+        appendMessage(demoReply(text), 'bot');
+      }, 700 + Math.random()*700);
+    }
+
+    send.addEventListener('click', sendMessage);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); } });
+
+    // welcome
+    appendMessage("Hi — I'm a demo ChatGPT. Ask me anything (offline demo).", 'bot');
+  </script>
+</body>
+</html>

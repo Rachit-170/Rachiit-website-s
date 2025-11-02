@@ -1,0 +1,129 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <table border="2px">
+          <thead>
+               <tr>
+               <th>ID</th>
+               <th>Title</th>
+               <th>Price</th>
+               <th>Image</th>
+               </tr>
+          </thead>
+
+          <tbody id = "y">
+
+          </tbody>
+     </table>
+
+     <script>
+          fetch("https://fakestoreapi.com/products/")
+          .then(f=>f.json())
+          .then(d =>{
+               var fd = "";
+               d.forEach(i => {
+                    fd += `
+                    <tr>
+                    <td> ${i.id} </td>
+                    <td> ${i.title} </td>
+                    <td> $${i.price} </td>
+                    <td> <img src = "${i.image}" alt = "" height = "200px"> </img> </td>
+                    </tr>
+                    `
+               });
+               document.getElementById("y").innerHTML = fd;
+          })
+     </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products in Card Format</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #0d132b;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      width: 250px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background: #f7f7f7;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      margin: 0 0 10px;
+      color: #333;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #1a73e8;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="products"></div>
+
+  <script>
+    fetch("https://fakestoreapi.com/products/")
+      .then(res => res.json())
+      .then(data => {
+        let cards = "";
+        data.forEach(item => {
+          cards += `
+            <div class="card">
+              <img src="${item.image}" alt="${item.title}">
+              <div class="card-body">
+                <h3>${item.title}</h3>
+                <div class="price">$${item.price}</div>
+              </div>
+            </div>
+          `;
+        });
+        document.getElementById("products").innerHTML = cards;
+      });
+  </script>
+</body>
+</html>

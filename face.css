@@ -1,0 +1,123 @@
+* {
+     padding: 0px;
+     margin: 0px;
+}
+
+body {
+     background-color: rgb(255, 48, 48);
+}
+
+.main {
+     height: 700px;
+     width: 400px;
+     border-radius: 100%;
+     margin-top: 100px;
+     margin-left: 35%;
+     box-shadow: 8px 8px 15px rgb(73, 3, 3), -8px -8px 15px black;
+}
+
+.e {
+     display: flex;
+}
+
+.ibrow {
+     height: 150px;
+     width: 200px;
+}
+
+#io {
+     background-image: url(ibrow.png);
+     background-size: cover;
+}
+
+#ioo {
+     background-image: url(ibrow2.png);
+     background-size: cover;
+}
+
+.y {
+     display: flex;
+}
+
+.eye {
+     
+     height: 250px;
+     width: 45%;
+     margin-left: 15px;
+     background-color: white;
+     border-radius: 100%;
+     filter: drop-shadow(0 0 0.6rem black)
+}
+
+#ee {
+     rotate: 20deg;
+     border-top: 5px solid black;
+     border-bottom: 4px solid black;
+}
+
+#eee {
+     rotate: -20deg;
+     border-top: 5px solid black;
+     border-bottom: 4px solid black;
+}
+
+.l {
+     height: 85px;
+     width: 85px;
+     margin-top: 60px;
+     margin-left: 60px;
+     background-image: url(eye.png);
+     background-size: cover;
+}
+
+#ll {
+     margin-left: 30px;
+}
+
+.mouth {
+     height: 200px;
+     width: 150px;
+     margin-top: 50px;
+     margin-left: 30%;
+     border: 5px solid red;
+     border-top-left-radius: 60%;
+     border-top-right-radius: 60%;
+     border-bottom-right-radius: 45%;
+     border-bottom-left-radius: 45%;
+     background-color: black;
+     box-shadow: 2px 8px 10px black, -2px -8px 15px black;
+}
+
+.live {
+     height: 100px;
+     width: 100%;
+     margin-top: 95px;
+     border-bottom-right-radius: 100px;
+     border-bottom-left-radius: 100px;
+     display: flex;
+}
+
+.v {
+     height: 100%;
+     width: 145px;
+     background-color: pink;
+}
+
+#vv {
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 100px;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 10px;
+     border-right: 2px solid rgb(214, 157, 167);
+     border-bottom: 2px solid rgb(214, 157, 167);
+     box-shadow: inset 5px 2px 8px rgb(73, 3, 3), -2px -8px 15px black;
+}
+
+#vvv {
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 100px;
+     border-top-right-radius: 50px;
+     border-top-left-radius: 10px;
+     border-bottom: 2px solid rgb(214, 157, 167);
+     box-shadow: inset -5px -2px 8px rgb(73, 3, 3), 2px -8px 15px black;
+}

@@ -1,0 +1,36 @@
+body {
+     margin: 0px;
+     padding: 0px;
+     background-color: rgb(18, 18, 48);
+}
+
+.main {
+     height: 380px;
+     width: 600px;
+     background-color: aliceblue;
+     display: inline-flex;
+     margin-top: 150px;
+     margin-left: 450px;
+}
+
+#round-one {
+     height: 120px;
+     width: 120px;
+     background: linear-gradient(45deg, rgb(230, 79, 215), white);
+     border-radius: 100%;
+}
+
+#round-two {
+     height: 120px;
+     width: 120px;
+     background: linear-gradient(45deg, rgb(230, 79, 215), white);
+     border-radius: 100%;
+     margin-left: 480px;
+     margin-top: 140px;
+}
+
+.card {
+     height: 300px;
+     width: 500px;
+     background-color: antiquewhite;
+}

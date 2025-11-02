@@ -1,0 +1,93 @@
+* {
+     padding: 0px;
+     margin: 0px;
+}
+
+body {
+     background-color: rgb(2, 161, 172);
+}
+
+.top1 {
+     height: 50px;
+     width: 100%;
+     background-color: aliceblue;
+     filter: drop-shadow(0 0 5.100rem rgba(0,0,0,0.2));
+}
+
+.top2 {
+     height: 150px;
+     width: 100%;
+     background-color: aliceblue;
+}
+
+.round {
+     height: 50px;
+     width: 70px;
+     background-color: blanchedalmond;
+     margin-left: 45%;
+     margin-top: -100px;
+     border-radius: 50%;
+     filter: drop-shadow(0 0 2.75rem black);
+     display: flex;
+}
+
+.roop {
+     height: 200px;
+     width: 5px;
+     background-color: bisque;
+     margin-left: 47.1%;
+     margin-top: 30px;
+}
+
+.lamp {
+     height: 90px;
+     width: 80px;
+     background-color: rgb(0, 128, 255);
+     margin-left: 44.5%;
+     display: flex;
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     margin-top: 180px;
+}
+
+.l {
+     height: 20px;
+     width: 80px;
+     background-color: rgb(124, 187, 251);
+     margin-top: 70px;
+     border-top-right-radius: 80px;
+     border-top-left-radius: 80px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+
+.range {
+     height: 50px;
+     width: 200px;
+     background-color: aqua;
+     margin-left: 40%;
+     margin-top: 90px;
+     border-radius: 5px;
+}
+
+input {
+     margin-top: 20px;
+     margin-left: 10px;
+}
+
+#s {
+     margin-left: 5px;
+     color: rgb(112, 111, 111);
+}
+
+#m {
+     margin-left: 10px;
+     color: rgb(112, 111, 111);
+}
+
+.slider::-moz-range-progress {
+     background-color: green;
+     height: 5px;
+}

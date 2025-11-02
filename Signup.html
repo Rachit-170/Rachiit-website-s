@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Auth.css">
+</head>
+<body>
+    <div class="main">
+        <form id="signupForm">
+            <div class="login">Sign Up</div>
+
+            <div class="id">
+                <input type="text" placeholder="Username" id="signUsername" required>
+            </div>
+
+            <div class="id">
+                <input type="email" placeholder="Email" id="signEmail" required>
+            </div>
+
+            <div class="id password-container">
+                <input type="password" placeholder="Password" id="signPassword" required>
+                <span class="show-pass" onclick="togglePassword('signPassword')">👁️</span>
+            </div>
+
+            <div class="id password-container">
+                <input type="password" placeholder="Confirm Password" id="confirmPassword" required>
+                <span class="show-pass" onclick="togglePassword('confirmPassword')">👁️</span>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+            <div class="sig">
+                Already have an account? <a href="Login.html">Login</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="Auth.js"></script>
+</body>
+</html>

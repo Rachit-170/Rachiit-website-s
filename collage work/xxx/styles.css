@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    background-color: #f0f0f0; /* Light background */
+}
+
+.canvas {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Relative positioning for child elements */
+    background-color: white; /* White canvas background */
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.editable-element {
+    position: absolute; /* Allows elements to be placed anywhere */
+    border: 1px solid #ccc; /* Light border for visibility */
+    padding: 10px;
+    background-color: #fff; /* White background for elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: move; /* Indicate draggable elements */
+    user-select: none; /* Prevent text selection while dragging */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+.editable-element:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Blue border on focus */
+}

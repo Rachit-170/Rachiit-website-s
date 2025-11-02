@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+
+    <div id="div1">
+        <div id="div2">
+        <a href="#" id="col">&#x2921;</a>
+        <a href="#" id="col">=</a>
+        <a href="#" id="col">&#x2689;</a>
+        <a href="#" id="col">&#x21ec;</a>
+        <a href="#" id="col">&#10247;</a>
+</div>
+    <input type="text" id="res">
+    <div class="equ"></div>
+        <div class="div3">
+            <button onclick="clearDisplay()" class="hov">AC</button>
+            <button onclick="cleardiplay('/')" class="hov">&#9003;</button>
+            <button onclick="appendedvalue('%')" class="hov">%</button>
+            <button onclick="appendedvalue('/')" class="hov">/</button>
+        </div>
+        <div class="div4">
+            <button onclick="appendedvalue('7')" class="hov">7</button>
+            <button onclick="appendedvalue('8')" class="hov">8</button>
+            <button onclick="appendedvalue('9')" class="hov">9</button>
+            <button onclick="appendedvalue('*')" class="hov">*</button>
+        </div>
+        <div class="div5">
+            <button onclick="appendedvalue('4')" class="hov">4</button>
+            <button onclick="appendedvalue('5')" class="hov">5</button>
+            <button onclick="appendedvalue('6')" class="hov">6</button>
+            <button onclick="appendedvalue('-')" class="hov">-</button>
+        </div>
+       <div class="div6">
+            <button onclick="appendedvalue('1')" class="hov">1</button>
+            <button onclick="appendedvalue('2')" class="hov">2</button>
+            <button onclick="appendedvalue('3')" class="hov">3</button>
+            <button onclick="appendedvalue('+')" class="hov">+</button>
+        </div>
+        <div class="div7">
+            <button onclick="appendedvalue('!')" class="hov">!</button>
+            <button onclick="appendedvalue('0')" class="hov">0</button>
+            <button onclick="appendedvalue('.')" class="hov">.</button>
+            <button onclick="calculate('=')" class="hov">=</button>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>

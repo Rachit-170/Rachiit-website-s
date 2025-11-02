@@ -1,0 +1,31 @@
+#first{
+    height: 200px;
+    width: 1465px;
+    background-color: rgb(235, 84, 3);
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+#second{
+    height: 140px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 150px;
+}
+
+#third{
+    color: black;
+    padding-left: 300px;
+}
+
+#reg{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#fn{
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}

@@ -1,0 +1,21 @@
+body {
+     background: linear-gradient(90deg, lime, aqua);
+}
+
+h1 {
+     animation: name;
+     animation-duration: 13s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes name {
+     10% {
+          color: rgb(161, 38, 38);
+     }    
+     50% {
+          color: rgb(255, 60, 206);
+     }
+     100% {
+          color: rgb(0, 68, 68);
+     }
+}

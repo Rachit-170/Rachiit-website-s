@@ -1,0 +1,659 @@
+body {
+     padding: 0px;
+     margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topline {
+     height: 5px;
+     width: 1468px;
+     background-color: cornflowerblue;
+}
+
+
+.university-main-web {
+    margin-left: 1180px;
+}
+
+
+#button-main {
+     height: 30px;
+     width: 200px;
+     background-color: cornflowerblue;
+     color: white;
+     border: none;
+     border-radius: 3px;
+     font-size: 15px;
+     cursor: pointer;
+}
+
+a{
+     color: white;
+}
+
+.utech {
+     height: 100px;
+     width: 100px;
+     background-image: url(utech.png);
+     background-size: cover;
+     margin-left: 100px;
+}
+
+
+.main {
+     display: flex;
+}
+
+
+.second {
+     height: 100px;
+     width: 1000px;
+     margin-left: 10px;
+     margin-top: 0px;
+}
+
+
+.name {
+     color: rgb(43, 0, 97);
+     width: 650px;
+     height: 30px;
+     margin-left: 0px;
+     margin-top: 0px;
+}
+
+
+#heading-one {
+     font-size: 20px;
+     margin-top: 0px;
+}
+
+.line-two {
+     display: flex;
+     height: 20px;
+     width: 600px;
+     color: rgb(105, 105, 105);
+     margin-top: 5px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#twol {
+     color: rgb(32, 44, 182);
+     margin-left: 50px;
+     font-weight: bold;
+     text-shadow: 1.5px 0.5px #6d6d6d;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.threel {
+     width: 650px;
+     font-size: 13px;
+     margin-top: 15px;
+}
+
+
+.line {
+     height: 5px;
+     width: 1468px;
+     background-color: cornflowerblue;
+     display: flex;
+     margin-top: 5px;
+}
+
+
+.line-one {
+     height: 5px;
+     width: 400px;
+     background-color: chocolate;
+}
+
+
+/* .makaut-image {
+     height: 240px;
+     width: 1280px;
+     margin-left: 100px;
+     background-color: black;
+} */
+
+.for-image {
+     height: 240px;
+     width: 1280px;
+     background-image: url(makaut-new.png);
+     background-size: contain;
+     margin-left: 100px;
+     margin-top: 0px;
+}
+
+
+.user {
+     height: 110px;
+     width: 1280px;
+     background: transparent;
+     margin-left: 100px;
+     margin-top: 10px;
+     display: flex;
+}
+
+
+.members-area {
+     height: 100px;
+     width: 410px;
+     border-top: 5px solid cornflowerblue;
+     border-bottom: 5px solid chocolate;
+     background-image: url(makautmember.jpg);
+     background-size: contain;
+}
+
+
+.lettrs {
+     height: 100px;
+     width: 410px;
+     background-color: aliceblue;
+     margin-left: 55px;
+     border-top: 5px solid cornflowerblue;
+     border-bottom: 5px solid chocolate;
+     background-image: url(makautmember.jpg);
+     background-size: contain;
+}
+
+
+.applications {
+     height: 100px;
+     width: 410px;
+     background-color: aliceblue;
+     margin-left: 60px;
+     border-top: 5px solid cornflowerblue;
+     border-bottom: 5px solid chocolate;
+     background-image: url(makautmember.jpg);
+     background-size: contain;
+}
+
+
+#member-one {
+     margin-top: 15px;
+     color: #434343;
+     margin-left: 10px;
+}
+
+
+li {
+     margin-left: 10px;
+     color: #434343;
+}
+
+
+a{
+     text-decoration: none;
+}
+
+
+li:hover {
+     color: rgb(12, 122, 85);
+}
+
+
+.main-body {
+     background-color: rgb(249, 25, 25);
+     background: transparent;
+     height: 900px;
+     width: 1280px;
+     display: flex;
+     margin-top: 15px;
+     margin-left: 100px;    
+}
+
+
+.for-body {
+     background-color: black;
+     background: transparent;
+     height: 640px;
+     width: 832px;
+}
+
+
+.general {
+     height: 320px;
+     width: 832px;
+     background-color: rgb(197, 217, 226);
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#ge {
+     height: 20px;
+     width: 100px;
+     padding-top: 10px;
+     margin-left: 20px;
+     color: rgb(12, 68, 83);
+     font-size: medium;
+     font-size: 15px;
+}
+
+
+#geline {
+     height: 1px;
+     width: 790px;
+     background-color: rgb(0, 63, 54);
+     margin-top: 30px;
+     margin-left: 20px;
+}
+
+
+.generaldivone {
+     height: 102px;
+     width: 790px;
+     background-color: aliceblue;
+     background: transparent;
+     display: flex;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+
+.DUPLICATE-GRADE-CARD {
+     height: 100px;
+     width: 250px;
+     border: 0.5px solid white;
+     background-color: #59afc3;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#button-one {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     background-color: #537a83;
+     border: none;
+     color: white;
+}
+
+
+#first {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+}
+
+
+.New-Syllabus {
+     height: 100px;
+     width: 250px;
+     margin-left: 20px;
+     border: 0.5px solid white;
+     background-color: #1f4960;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#scond {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 20px;
+}
+
+
+#button-two {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #263f4b;
+     border: none;
+     color: white;
+}
+
+
+.TEACHER-APPOINTMENT {
+     height: 100px;
+     width: 250px;
+     margin-left: 20px;
+     border: 0.5px solid white;
+     background-color: #ca7437;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#thid {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 15px;
+}
+
+
+#button-three {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #e19864;
+     border: none;
+     color: white;
+}
+
+
+.generaldivtwo {
+     height: 102px;
+     width: 790px;
+     background-color: aliceblue;
+     background: transparent;
+     display: flex;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+
+.Verification-of-Academic-Credentials {
+     height: 100px;
+     width: 250px;
+     border: 0.5px solid white;
+     background-color: #44a89d;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#forth {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 15px;
+}
+
+
+#button-forth {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #439288;
+     border: none;
+     color: white;
+}
+
+
+.PGD-Courses {
+     height: 100px;
+     width: 250px;
+     margin-left: 20px;
+     border: 0.5px solid white;
+     background-color: #7149cf;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#fifth {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 15px;
+}
+
+
+#button-fifth {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #8f65f1;
+     border: none;
+     color: white;
+}
+
+
+.pree-exam {
+     height: 200px;
+     width: 832px;
+     margin-top: 20px;
+     background-color: rgb(197, 217, 226);
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#prex {
+     height: 20px;
+     width: 200px;
+     padding-top: 10px;
+     margin-left: 20px;
+     color: rgb(12, 68, 83);
+     font-size: medium;
+     font-size: 15px;
+}
+
+
+#preline {
+     height: 1px;
+     width: 790px;
+     background-color: rgb(0, 63, 54);
+     margin-top: 30px;
+     margin-left: 20px;
+}
+
+
+.generaldivthree {
+     height: 102px;
+     width: 790px;
+     background-color: aliceblue;
+     background: transparent;
+     display: flex;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+
+
+.Admit-Card {
+     height: 100px;
+     width: 250px;
+     border: 0.5px solid white;
+     background-color: #2a4141;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#xix {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 15px;    
+}
+
+
+#button-xix {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #406363;
+     border: none;
+     color: white;
+}
+
+
+.EXAMINATION-ROUTINE {
+     height: 100px;
+     width: 250px;
+     margin-left: 20px;
+     border: 0.5px solid white;
+     background-color: #2a4141;
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#seven {
+     margin-top: 5px;
+     text-align: center;
+     color: white;
+     font-weight: 100px;
+     font-size: 15px;    
+}
+
+
+#button-seven {
+     height: 30px;
+     width: 200px;
+     margin-left: 25px;
+     border-radius: 10px;
+     text-align: center;
+     font-weight: bold;  
+     font-size: 15px;
+     background-color: #406363;
+     border: none;
+     color: white;
+}
+
+
+.newone {
+     margin-left: 30px;
+     display: flex;
+}
+
+
+.new {
+     height: 12px;
+     width: 25px;
+     margin-top: 8px;
+     margin-left: 5px;
+     color: yellow;
+     font-weight: 100px;
+     font-size: 10px;
+     background-color: red;
+}
+
+
+#newbg {
+     height: 12px;
+     width: 25px;
+     animation-name: newbg;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+}
+
+
+@keyframes newbg {
+     10% {
+          color: red;
+      }
+      50% {
+          color: yellow;
+      }
+      100% {
+          color: yellow;
+      }
+}
+
+
+.post-exam {
+     height: 80px;
+     width: 832px;
+     margin-top: 20px;
+     background-color: rgb(197, 217, 226);
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+} 
+
+
+#prox {
+     height: 20px;
+     width: 300px;
+     padding-top: 10px;
+     margin-left: 20px;
+     color: rgb(12, 68, 83);
+     font-size: medium;
+     font-size: 15px;
+}
+
+
+#proline {
+     height: 1px;
+     width: 790px;
+     background-color: rgb(0, 63, 54);
+     margin-top: 30px;
+     margin-left: 20px;
+}
+
+
+.latest {
+     height: 900px;
+     width: 390px;
+     margin-left: 60px;
+     background-color: rgb(197, 217, 226);
+     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); 
+}
+
+
+#Announcement {
+     height: 50px;
+     width: 390px;   
+}
+
+
+#lat {
+     height: 20px;
+     width: 300px;
+     margin-left: 20px;
+     color: rgb(12, 68, 83);
+     font-size: 23px;
+}
+
+
+#latestline {
+     height: 0.5px;
+     width: 355px;
+     background-color: rgb(0, 63, 54);
+     margin-top: 30px;
+     margin-left: 20px;
+}
+
+
+ul {
+     width: 340px;
+     height: 810px;
+     overflow-y: scroll; 
+     scrollbar-color: gray white;
+     text-align: start;
+}
+
+
+li {
+     color: black;   
+     font-size: 14px;
+}
+
+
+footer {
+     background-color: #59afc3;
+     height: 25px;
+     display: flex;
+     margin-top: 20px;
+}
+
+
+#fo {
+     color: white;
+     margin-left: 890px;
+     font-size: 13px;
+     margin-top: 5px;
+}

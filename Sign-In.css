@@ -1,0 +1,129 @@
+/* .main {
+     height: 600px;
+     width: 500px;
+     background-color: brown;
+     margin-top: 50px;
+     margin-left: 500px;
+     display: flex;
+}
+
+.one {
+     height: 200px;
+     width: 250px;
+     background-color: rgb(0, 96, 128);
+     margin-top: 50px;
+     margin-left: 50px;
+     display: inline-flex;
+}
+
+.two {
+     height: 200px;
+     width: 250px;
+     background-color: rgb(128, 0, 77);
+     margin-top: 350px;
+     margin-right: 50px;
+     display: inline-flex;
+}
+
+.three {
+     height: 500px;
+     width: 550px;
+     background-color: rgb(0, 255, 72);
+     
+} */
+
+body {
+     background-color: rgb(52, 49, 53);
+}
+
+.content {
+     height: 450px;
+     width: 400px;
+     margin-left: 500px;
+     margin-top: 100px;
+     background-color: rgb(43, 42, 47);
+     border-top-left-radius: 50px;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 50px;
+     border-bottom-left-radius: 5px;
+     justify-items: center;
+     font-family: Arial;
+     padding-top: 10px;
+     
+}
+
+.sing {
+     margin-top: 50px;
+     color: rgb(13, 192, 192);
+     font-weight: bold;
+     font-size: 25px;
+}
+
+#oi {
+     height: 30px;
+     width: 320px;
+     margin-left: 40px;
+     margin-top: 50px;
+}
+
+#ot {
+     height: 30px;
+     width: 320px;
+     margin-left: 40px;
+     margin-top: 50px;
+}
+
+input {
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     border-color: rgb(13, 192, 192);
+     background: transparent;
+     color: rgb(43, 42, 47);
+     font-weight: bold;
+     font-size: 15px;
+}
+
+input:active {
+     background-color: rgb(13, 192, 192);
+}
+
+::placeholder {
+     color: rgb(163, 163, 163);
+     font-size: 13px;
+     font-weight: 100;
+}
+
+button {
+     height: 40px;
+     width: 320px;
+     background-color: rgb(13, 192, 192);
+     color: black;
+     border: 0px;
+     border-radius: 50px;
+     margin-top: 50px;
+     margin-left: 40px;
+     font-weight: bolder;
+     font-size: 15px;
+}
+
+#pass {
+     margin-left: 40px;
+     color: rgb(163, 163, 163);
+     font-size: 15px;
+     text-decoration: none;
+}
+
+#sig {
+     margin-left: 120px;
+     color: rgb(13, 192, 192);
+     font-size: 16px;
+     font-weight: bold;
+     text-decoration: none;
+}
+
+.last {
+     height: 30px;
+     width: 400px;
+     margin-top: 30px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Delete Product</title>
+</head>
+<body>
+     <input type="number" id="i" placeholder="Enter Product ID">
+     <button onclick="del()">Delete</button>
+
+     <script>
+          function del() {
+               var ii = document.getElementById("i").value;
+
+               fetch(`https://ayanapi.rentmyvehicle.in/product_api.php?id=${ii}`, {
+                    method: "DELETE"
+               })
+               .then(response => response.json())
+               .then(d => {
+                    if (d.success) {
+                         alert("Data deleted successfully!");
+                    } else {
+                         alert("Error deleting data!");
+                    }
+               })
+          }
+     </script>
+</body>
+</html>

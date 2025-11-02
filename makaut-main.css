@@ -1,0 +1,347 @@
+body {
+     margin: 0px;
+     padding: 0px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.top-box {
+     height: 60px;
+     width: 1482px;
+     background: linear-gradient(20deg, rgb(34, 34, 255), aqua);
+     display: flex;
+     box-shadow: 5px 4px 2px 0px rgba(0, 0, 0, 0.4); 
+}
+
+.all-contact {
+     height: 20px;
+     width: 330px;
+     margin-left: 220px;
+     margin-top: 20px;
+     display: flex;
+}
+
+.main-home {
+     height: 20px;
+     width: 60px;
+     display: flex;
+}
+
+.ic-home {
+     color: rgb(51, 58, 81);
+     cursor: pointer;
+}
+
+.home {
+     color: white;
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+.main-contact {
+     height: 20px;
+     width: 160px;
+     display: flex;
+     margin-left: 10px;
+}
+
+.ic-contact {
+     color: rgb(51, 58, 81);
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+.ph-no {
+     color: white;
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+.main-mail {
+     height: 20px;
+     width: 110px;
+     display: flex;
+     margin-left: 10px;
+}
+
+.ic-mail {
+     color: rgb(51, 58, 81);
+     cursor: pointer;
+}
+
+.mail {
+     color: white;
+     margin-left: 5px;
+     cursor: pointer;
+}
+
+.admisasion-box {
+     height: 50px;
+     width: 300px;
+     background-color: rgb(225, 225, 2);
+     border-radius: 5px;
+     display: flex;
+     margin-left: 50px;
+}
+
+.admisasion {
+     height: 20px;
+     width: 80px;
+     color: blueviolet;
+     font-size: 15px;
+     margin-left: 45px;
+     margin-top: 12px;
+     cursor: pointer;
+}
+
+.admisasion:hover {
+     animation: ani;
+     animation-duration: 0.5s;
+     animation-play-state: unset;
+     color: white;
+}
+
+@keyframes ani {
+     10% {
+          color: rgb(181, 128, 231);
+     }
+     50% {
+          color: white;
+     }
+     100% {
+          color: white;
+     }
+}
+
+.ad-line {
+     height: 20px;
+     width: 5px;
+     color: red;
+     font-size: 15px;
+     margin-top: 12px;
+}
+
+.frees {
+     height: 20px;
+     width: 100px;
+     color: blueviolet;
+     font-size: 15px;
+     margin-left: 10px;
+     margin-top: 12px;
+     cursor: pointer;
+}
+
+.frees:hover {
+     animation: ani;
+     animation-duration: 0.5s;
+     animation-play-state: unset;
+     color: white;
+}
+
+
+.cancil {
+     color: rgb(51, 58, 81);
+     margin-top: 12px;
+     margin-left: 20px;
+     font-size: 20px;
+     cursor: pointer;
+}
+
+.main-semenar {
+     height: 50px;
+     width: 280px;
+     display: flex;
+     margin-left: 200px;
+}
+
+.webiner {
+     height: 20px;
+     width: 65px;
+     margin-top: 15PX;
+     color: WHITE;
+     cursor: pointer;
+}
+
+.webiner:hover {
+     animation: one;
+     animation-duration: 0.5s;
+     animation-play-state: unset;
+     color: rgb(101, 174, 174);
+}
+
+@keyframes one {
+     10% {
+          color: rgb(255, 255, 255);
+     }
+     50% {
+          color: rgb(101, 174, 174);
+     }
+     100% {
+          color: rgb(101, 174, 174);
+     }
+}
+
+
+.dot {
+     height: 20px;
+     width: 15px;
+     margin-top: 13PX;
+     color: rgb(0, 0, 0);
+     font-weight: bolder;
+}
+
+.sitemap {
+     height: 20px;
+     width: 70px;
+     margin-top: 15PX;
+     color: WHITE;
+     cursor: pointer;
+}
+
+.sitemap:hover {
+     animation: one;
+     animation-duration: 0.5s;
+     animation-play-state: unset;
+     color: rgb(101, 174, 174);
+}
+
+select {
+     height: 20px;
+     margin-top: 17px;
+     font-weight: bold;
+     border: 0px;
+     cursor: pointer;
+}
+
+.second-box {
+     height: 60px;
+     width: 1450px;
+     justify-items: center;
+     display: flex;
+     margin-top: 8px;
+     margin-left: 17px;
+     box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.4);   
+}
+
+.utech {
+     height: 60px;
+     width: 60px;
+     background-image: url(utech.png);
+     background-size: cover;
+     margin-left: 50px;
+     cursor: pointer;
+}
+
+.for-name {
+     height: 60px;
+     width: 600px;
+     justify-items: center;
+     margin-left: 340px;
+}
+
+.mak {
+     font-weight: bold;
+     color: rgb(19, 19, 109);
+     margin-top: 8px;
+}
+
+.mak-two {
+     font-weight: bold;
+     color: red;
+     font-size: 13px;
+}
+
+.third-box {
+     height: 20px;
+     width: 777px;
+     display: flex;
+     margin-top: 15px;
+}
+
+#one {
+     height: 20px;
+     width: 75px;
+     font-weight:500;
+     color: white;
+     background-color: blueviolet ;
+     text-align: center;
+}
+
+#line-one {
+     margin-left: 5px;
+     font-size: 14px;
+}
+
+#two {
+     height: 20px;
+     width: 143px;
+     font-weight:500;
+     color: white;
+     background-color: blueviolet ;
+     margin-left: 5px;
+     text-align: center;
+}
+
+#line-two {
+     margin-left: 5px;
+     font-size: 14px;
+}
+
+#three {
+     height: 20px;
+     width: 50px;
+     font-weight:500;
+     color: white;
+     background-color: rgb(144, 39, 39) ;
+     margin-left: 5px;
+     text-align: center;
+}
+
+#line-three {
+     margin-left: 5px;
+     font-size: 14px;
+}
+
+#four {
+     height: 20px;
+     width: 140px;
+     font-weight:500;
+     color: white;
+     background-color: rgb(144, 39, 39) ;
+     margin-left: 5px;
+     text-align: center;
+}
+
+#line-four {
+     margin-left: 5px;
+     font-size: 14px;
+}
+
+#five {
+     height: 20px;
+     width: 315px;
+     font-weight:500;
+     color: white;
+     background-color: rgb(0, 0, 0) ;
+     margin-left: 5px;
+     text-align: center;
+}
+
+marquee {
+     display: inline-block;
+}    
+
+.four-box {
+     height: 50px;
+     width: 1841px;
+     background: linear-gradient(45deg, rgb(0, 0, 122), rgb(115, 0, 115));
+     margin-top: 10px;
+     display: flex;
+}
+
+#same {
+     color: white;
+     border: 1px solid rgb(48, 48, 48);
+     text-align: center;
+     width: 120px;
+
+}

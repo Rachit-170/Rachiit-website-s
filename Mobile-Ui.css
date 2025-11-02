@@ -1,0 +1,499 @@
+body {
+     padding: 0px;
+     margin: 0px;
+     background-color: rgb(223, 234, 235);
+}
+
+.main {
+     display: flex;
+}
+
+.mobile {
+     height: 500px;
+     width: 280px;
+     background-color:  rgb(223, 234, 235);
+     margin-left: 470px;
+     margin-top: 100px;
+     border: 8px solid rgb(255, 255, 255);
+     border-radius: 40px;
+}
+
+.top {
+     height: 116px;
+     width: 280px;
+     margin-top: 20px;
+     display: flex;
+}
+
+.date-time-one {
+     height: 50px;
+     width: 100px;
+     margin-left: 10px;
+     display: flex;
+}
+
+#time-one {
+     height: 50px;
+     width: 60px;
+     font-size: 50px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#time-two {
+     height: 10px;
+     width: 40px;
+     color: gray;
+     margin-top: 40px;
+     font-size: 10px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date-time-two {
+     height: 16px;
+     width: 55px;
+     margin-left: 20px;
+     color: gray;
+     font-size: 14px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.date-time-three {
+     height: 50px;
+     width: 100px;
+     margin-left: 10px;  
+     display: flex;
+}
+
+#time-four {
+     height: 20px;
+     width: 45px;
+     font-size: 7px;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.date-time-four {
+     height: 50px;
+     width: 55px;
+}
+
+#time-five {
+     height: 9px;
+     width: 15px;
+     font-size: 7px;
+     margin-top: 34px;
+     color: gray;
+     
+}
+
+#time-xix {
+     height: 50px;
+     width: 50px;
+     font-size: 43px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.top-one {
+     height: 116px;
+     width: 110px;
+     margin-left: 20px;
+}
+
+.top-two {
+     height: 116px;
+     width: 110px;
+     margin-left: 30px;
+     display: flex;
+}
+
+#top-one-in {
+     height: 110px;
+     width: 40px;
+     border-radius: 50px;
+     margin-top: 2.5px;
+     margin-left: 10px;
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+}
+
+#image {
+     height: 40px;
+     width: 35px;
+     margin-top: 68px;
+     margin-left: 2.5px;
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     background-image: url(ui.png);
+     background-size: cover;
+}
+
+#top-two-in {
+     height: 110px;
+     width: 40px;
+     border-radius: 50px;
+     margin-top: 2.5px;
+     margin-left: 10px;
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+}
+
+#comment {
+     height: 20px;
+     width: 20px;
+     text-align: center;
+     color: gray;
+     margin-top: 15px;
+     margin-left: 10px;
+}
+
+#line {
+     width: 30px;
+     margin-left: 5px;
+}
+
+.cal {
+     height: 40px;
+     width: 40px;
+     margin-top: 10px;
+}
+
+.cal-one {
+     height: 20px;
+     width: 40px;
+     display: flex;
+}
+
+#minas {
+     height: 12px;
+     width: 10px;
+     background-color: gray;
+     color: white;
+     font-size: 10px;
+     text-align: center;
+     margin-left: 9px;
+     margin-top: 6px;
+     border-radius: 2px;
+}
+
+#plus {
+     height: 12px;
+     width: 10px;
+     background-color: gray;
+     color: white;
+     font-size: 10px;
+     text-align: center;
+     margin-left: 2px;
+     margin-top: 6px;
+     border-radius: 2px;
+}
+
+.cal-two {
+     height: 20px;
+     width: 40px;
+     display: flex;
+}
+
+#into {
+     height: 12px;
+     width: 10px;
+     background-color: gray;
+     color: white;
+     font-size: 10px;
+     text-align: center;
+     margin-left: 9px;
+     border-radius: 2px;
+}
+
+#equal {
+     height: 12px;
+     width: 10px;
+     background-color: gray;
+     color: white;
+     font-size: 10px;
+     text-align: center;
+     margin-left: 2px;
+     border-radius: 2px;
+}
+
+.next-line {
+     height: 40px;
+     width: 280px;
+     margin-top: 20px;
+     display: flex;
+}
+
+#next-one {
+     height: 35px;
+     width: 80px;
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+     margin-top: 2.5px;
+     margin-left: 30px;
+     border-radius: 20px;
+     background-image: url(ui2.png);
+     background-size: cover;
+}
+
+#next-two {
+     height: 35px;
+     width: 35px;
+     background-color:  rgb(223, 234, 235);
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+     margin-top: 2px;
+     border-radius: 10px;
+     margin-left: 60px;
+}
+
+#image-icon {
+     height: 15px;
+     width: 20px;
+     margin-left: 9px;
+     margin-top: 5px;
+}
+
+#picture {
+     height: 7px;
+     width: 30px;
+     margin-left: 2px;
+     color: gray;
+     font-size: 7px;
+     margin-top: 2px;
+     text-align: center;
+}
+
+#next-three {
+     height: 35px;
+     width: 35px;
+     background-color:  rgb(223, 234, 235);
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+     margin-top: 2px;
+     border-radius: 10px;
+     margin-left: 20px;
+}
+
+#contact-icon {
+     height: 15px;
+     width: 20px;
+     margin-left: 9px;
+     margin-top: 5px;
+}
+
+#contact {
+     height: 7px;
+     width: 30px;
+     margin-left: 2px;
+     color: gray;
+     font-size: 6px;
+     margin-top: 2px;
+     text-align: center;
+}
+
+.calender {
+     height: 100px;
+     width: 250px;
+     margin-top: 10px;
+     margin-left: 15px;
+     background-color: rgb(223, 234, 235);
+     box-shadow: 8px 8px 15px gray, -8px -8px 10px #ffffff;
+     border-radius: 10px;
+}
+
+.date {
+     height: 8px;
+     width: 250px;  
+     margin-top: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     display: flex;
+}
+
+#sun {
+     height: 8px;
+     width: 16px;
+     justify-content: space-around;
+     margin-left: 18px;
+     margin-top: 3px;
+     font-size: 7px;
+     color: gray;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.date-two {
+     height: 8px;
+     width: 250px;
+     margin-top: 8px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     display: flex;
+}
+
+#num {
+     height: 8px;
+     width: 16px;
+     justify-content: space-around;
+     margin-left: 18px;
+     font-size: 7px;
+     color: rgb(97, 97, 97);
+     background-color: rgb(223, 234, 235);
+     box-shadow: 2px 2px 10px gray, -2px -2px 10px #ffffff;     
+     border-radius: 5px;
+     text-align: center;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.power {
+     height: 20px;
+     width: 130px;
+     margin-top: 45px;
+     display: flex;
+}
+
+.power-logo {
+     height: 18px;
+     width: 20px;
+     background-color: rgb(1, 1, 60);
+     margin-left: 15px;
+     border-radius: 5px;
+     color: rgb(144, 204, 250);
+     text-align: center;
+     padding-top: 2px;
+}
+
+.power-text {
+     height: 10px;
+     width: 30px;
+     margin-top: 5px;
+     margin-left: 5px;
+     font-size: 10px;
+     text-align: center;
+     padding-bottom: 2px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.charge-percent {
+     height: 10px;
+     width: 20px;
+     margin-top: 5px;
+     margin-left: 15px;
+     font-size: 10px;
+     text-align: center;
+     padding-bottom: 2px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.battry {
+     height: 15px;
+     width: 20px;
+     margin-top: 2.5px;
+     margin-left: 2px;
+     color: rgb(1, 1, 60);
+}
+
+.clock {
+     height: 100px;
+     width: 100px;
+     margin-top: 20px;
+     margin-left: 15px;
+     border-radius: 10px;
+     display: inline-block;
+     background-image: url(ui-clock.jpg);
+     background-size: cover;
+     box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+}
+
+.world {
+     height: 40px;
+     width: 100px;
+     margin-left: 45px;
+     border-radius: 40px;
+     display: inline-block;
+     background-color: rgb(223, 234, 235);
+     box-shadow: 4px 4px 15px gray, -4px -4px 10px #ffffff;
+}
+
+.wo {
+     height: 40px;
+     width: 95px;
+     display: flex;
+}
+
+.world-text {
+     height: 10px;
+     width: 50px;
+     color: gray;
+     font-size: 8px;
+     margin-left: 8px;
+     margin-top: 24px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.world-logo {
+     height: 30px;
+     width: 30px;
+     margin-top: 10px;
+     margin-left: 5px;
+     font-size: 20px;
+}
+
+.call-camera {
+     height: 45px;
+     width: 280px;
+     margin-top: 20px;
+     display: flex;
+     border-bottom-right-radius: 33px;
+     border-bottom-left-radius: 33px;
+}
+
+.call {
+     height: 30px;
+     width: 40px;
+     background-color: rgb(223, 234, 235);
+     margin-top: 10px;
+     padding-top: 5px;
+     text-align: center;
+     font-size: 25px;
+     border-bottom-left-radius: 33px;
+     border-top-right-radius: 15px;
+     box-shadow: -4px -4px 10px #ffffff;
+}
+
+.phone {
+     height: 24px;
+     width: 40px;
+     background-color: rgb(223, 234, 235);
+     margin-top: 14px;
+     padding-top: 2px;
+     padding-right: 5px;
+     padding-bottom: 5px;
+     margin-left: 200px;
+     text-align: center;
+     font-size: 25px;
+     border-bottom-right-radius: 33px;
+     border-top-left-radius: 15px;
+     box-shadow: -4px -4px 10px #ffffff;
+}
+
+/* .in-calander {
+     height: 60px;
+     width: 90px;
+     margin-top: 40px;
+     margin-left: 160px;
+     border-top-left-radius: 50%;
+     box-shadow: inset 1.5px 1.5px 1px #bebebe;
+     border-bottom: 0px;
+} */
+
+
+
+/* #time-three {
+     height: 20px;
+     width: 100px;
+     background-color:chartreuse ;
+
+} */
+
+
+/* 
+.watch {
+     height: 500px;
+     width: 200px;
+     background-color: aqua;
+     margin-left: 50px;
+} */

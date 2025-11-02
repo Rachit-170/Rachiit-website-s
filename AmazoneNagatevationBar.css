@@ -1,0 +1,33 @@
+#j{
+    width: 1465px;
+    height: 40px;
+    /* border: 100px;;
+    border-style: solid;
+    border-color: rgb(139, 70, 2);
+    border-width: 2px;*/
+    border-radius: 5px; 
+    background-color: #0f1111;
+    padding-top: 5px;
+}
+
+a{
+    margin-right: 200px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#s{
+    color: chocolate;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#b{
+    background-color: chocolate;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#i{
+    border-radius: 10px;
+}

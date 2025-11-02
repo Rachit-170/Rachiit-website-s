@@ -1,0 +1,160 @@
+.body {
+    height: 40px;
+    width: 50px;
+    margin-top: 300px;
+    margin-left: 300px;
+    justify-content: space-evenly;
+}
+
+.bodeone {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+    animation: ones;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ones {
+    10% {
+        background-color: rgb(44, 34, 229);
+    }
+    50% {
+        background-color: rgb(98, 50, 255);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.two {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.three {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.four {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.bodytwo {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.five {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+.six {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.seven {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.eight {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.bodythree {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nine {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+.ten {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.elevan {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.twolve {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+
+.bodyfour {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.threeten {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+.fourten {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.fiften {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}
+
+.sisten {
+    height: 5px;
+    width: 5px;
+    background-color: rgb(44, 34, 229);
+    border-radius: 100px;
+}

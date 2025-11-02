@@ -1,0 +1,121 @@
+body {
+     background-color: gray;
+}
+
+.bg {
+     display: flex;
+}
+
+.bg {
+     height: 680px;
+     width: 50%;
+     background-color: rgb(255, 104, 48);
+     margin-left: 50%;
+     border-top-left-radius: 80%;
+     border-bottom-left-radius: 100%;
+     flex: wrap;
+}
+
+.card {
+     height: 400px;
+     width: 700px;
+     background-color: rgb(50, 50, 50);
+     position: fixed;
+     display: flex;
+     border-radius: 10px;
+     margin-left: 400px;
+     margin-top: 100px;
+     filter: drop-shadow(0 0 0.70rem rgb(55, 55, 55));
+}
+
+.card2 {
+     height: 100%;
+     width: 50%;
+     background-color: rgb(255, 104, 48);
+     display: flex;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-top-left-radius: 80%;
+     border-bottom-left-radius: 100%;
+}
+
+.card3 {
+     height: 300px;
+     width: 90%;
+     margin-top: 100px;
+     background: transparent;
+     background-color: red;
+     background: url(rachit.png);
+     background-size: cover;
+}
+
+#bar {
+     color: white;
+     margin-top: 20px;
+     cursor: pointer;
+}
+
+.e {
+     height: 100%;
+     width: 50%;
+}
+
+.my {
+     height: 30px;
+     width: 120px;
+     display: flex;
+     margin-top: 30px;
+     margin-left: 30px;
+}
+
+.m {
+     height: 100%;
+     width: 40%;
+     color: white;
+     text-align: end;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.c {
+     height: 100%;
+     width: 60%;
+     color: rgb(255, 104, 48);
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.h {
+     height: 20px;
+     width: 50px;
+     margin-top: 100px;
+     margin-left: 50px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+}
+
+h2 {
+     margin-left: 50px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+     margin-left: 50px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+     height: 30px;
+     background-color: rgb(255, 104, 48);
+     color: white;
+     margin-left: 50px;
+     cursor: pointer;
+     font-weight: bold;
+     border: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Auth.css">
+</head>
+<body>
+    <div class="main">
+        <form id="loginForm">
+            <div class="login">Login</div>
+
+            <div class="id">
+                <input type="text" placeholder="Username" id="logUsername" required>
+            </div>
+
+            <div class="id password-container">
+                <input type="password" placeholder="Password" id="logPassword" required>
+                <span class="show-pass" onclick="togglePassword('logPassword')">👁️</span>
+            </div>
+
+            <div class="id remember">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember me</label>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <div class="sig">
+                Don't have an account? <a href="Signup.html">Sign up</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="Auth.js"></script>
+</body>
+</html>

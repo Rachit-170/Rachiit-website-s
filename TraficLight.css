@@ -1,0 +1,100 @@
+#out{
+width: 100px;
+height: 370px;
+background-color: rgb(0, 0, 0);
+padding: 10px;
+border-radius: 10px;
+}
+
+#redlight{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    animation-name: redlight;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes redlight {
+    10% {
+        background-color: red;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+#yellowlight{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    animation-name: yellowlight;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yellowlight {
+    10% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+#greenlight{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    animation-name: greenlight;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes greenlight {
+    10% {
+        background-color: green;
+    }
+    50% {
+        background-color: black;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+#h{
+    width: 50px;
+    height: 300px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 0px;
+}
+
+#j{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+
+#i{
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    margin-top: 0.5px;
+    border-radius: 50px;
+}

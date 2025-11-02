@@ -1,0 +1,59 @@
+body {
+     background-color: rgb(18, 14, 19);
+}
+
+.one {
+     height: 500px;
+     width: 500px;
+     background-color: aliceblue;
+     margin-top: 50px;
+     display: flex;
+}
+
+.one-one {
+     height: 350px;
+     width: 350px;
+     margin-top: 50px;
+     border-radius: 100%;
+     border-top: 5px solid rgb(0, 197, 197);
+     border-left: 5px solid rgb(18, 14, 19);
+     border-right: 5px solid rgb(18, 14, 19);
+     border-bottom: 5px solid rgb(18, 14, 19);
+}
+
+.one-round {
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     border-radius: 100px;
+     margin-top: 15px;
+     display: flex;
+}
+
+.one-round-one {
+     height: 100px;
+     width: 100px;
+     background-color: rgb(81, 225, 81);
+     border-radius: 100px;
+     margin-top: 10px;
+     animation: spin;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+
+
+
+@keyframes spin {
+     0% {
+          transform: scale(1, 1);
+     }
+
+     50% {
+          opacity: 0.5;
+     }
+
+     100% {
+          transform: scale(1.5);
+          opacity: 0;
+     }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Product</title>
+  <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Checkout</h1>
+
+    <div id="product-details" class="product-box">
+      <!-- Product info will load here -->
+    </div>
+
+    <form class="checkout-form">
+      <h2>Shipping Information</h2>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Address</label>
+      <input type="text" placeholder="Enter your address" required>
+
+      <label>Phone</label>
+      <input type="tel" placeholder="Enter your phone" required>
+
+      <h2>Payment Method</h2>
+      <select required>
+        <option value="">Select Payment Method</option>
+        <option value="cod">Cash on Delivery</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="upi">UPI</option>
+      </select>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+<script>
+     document.querySelector(".checkout-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("✅ Order placed successfully!");
+  window.location.href = "index.html"; 
+});
+</script>
+</body>
+</html>

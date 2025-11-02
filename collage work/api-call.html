@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Table | Fake Store</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0078d7;
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #eef7ff;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #0078d7;
+    }
+
+    .category {
+      text-transform: capitalize;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      th {
+        display: none;
+      }
+      td {
+        border-bottom: 1px solid #eee;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #333;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🛍️ Fake Store Products</h1>
+
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Price ($)</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <tr>
+        <td colspan="5" style="text-align:center;">Loading products...</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    async function loadProducts() {
+      const tableBody = document.getElementById("tableBody");
+      try {
+        const res = await fetch("https://fakestoreapi.com/products/");
+        const products = await res.json();
+
+        tableBody.innerHTML = ""; 
+
+        products.forEach(item => {
+          const row = `
+            <tr>
+              <td><img src="${item.image}" alt="${item.title}"></td>
+              <td>${item.title}</td>
+              <td class="category">${item.category}</td>
+              <td class="price">$${item.price.toFixed(2)}</td>
+              <td>⭐ ${item.rating.rate} (${item.rating.count})</td>
+            </tr>
+          `;
+          tableBody.innerHTML += row;
+        });
+      } catch (error) {
+        tableBody.innerHTML = `<tr><td colspan="5" style="color:red;text-align:center;">Failed to load products!</td></tr>`;
+        console.error("Error fetching products:", error);
+      }
+    }
+
+    loadProducts();
+  </script>
+</body>
+</html>

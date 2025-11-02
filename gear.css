@@ -1,0 +1,178 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body {
+     background-color: gray;
+}
+
+.one {
+     height: 180px;
+     width: 180px;
+     margin-top: 120px;
+     margin-left: 50px;
+     display: flex;
+     animation-name: rotate;
+    animation-duration: 2000s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+     
+     100% {
+          rotate: 360000deg;
+     }
+} 
+
+.co {
+     height: 180px;
+     width: 180px;
+     border-radius: 100%;
+}
+
+.o1 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-left: 80px;
+}
+
+.o2 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: -10px;
+     margin-left: 40px;
+     rotate: 55deg;
+}
+
+.o3 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 10px;
+     margin-left: 10px;
+     rotate: 32deg;
+}
+
+.o4 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 20px;
+     rotate: 2deg;
+}
+
+.o5 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 20px;
+     margin-left: 10px;
+     rotate: -33deg;
+}
+
+.o6 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 10px;
+     margin-left: 41px;
+     rotate: -57deg;
+}
+
+.o7 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: -10px;
+     margin-left: 80px;
+}
+
+.o8 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: -169px;
+     margin-left: 122px;
+     rotate: 35deg;
+}
+
+.o9 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 12px;
+     margin-left: 152px;
+     rotate: -32deg;
+}
+
+.o10 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 18px;
+     margin-left: 160px;
+}
+
+.o11 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 20px;
+     margin-left: 151px;
+     rotate: 33deg;
+}
+
+.o12 {
+     height: 20px;
+     width: 20px;
+     background-color: white;
+     margin-top: 9px;
+     margin-left: 120px;
+     rotate: 57deg;
+}
+
+.one-circle {
+     height: 125px;
+     width: 125px;
+     margin-top: -152px;
+     margin-left: 18px;
+     border: 10px solid white;
+     border-radius: 100%;
+}
+
+.two {
+     height: 180px;
+     width: 180px;
+     margin-top: -115px;
+     margin-left: 205px;
+     animation-name: rotate2;
+    animation-duration: 2000s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate2 {
+     
+     100% {
+          rotate: -360000deg;
+     }
+}
+
+.three {
+     height: 180px;
+     width: 180px;
+     margin-top: -345px;
+     margin-left: 225px;
+     animation-name: rotate3;
+    animation-duration: 2000s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate3 {
+     
+     100% {
+          rotate: 360000deg;
+     }
+} 

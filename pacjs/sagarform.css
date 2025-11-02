@@ -1,0 +1,23 @@
+form {
+     margin-left: 150px;
+     margin-top: 50px;
+}
+
+table {
+     background-color: aqua;
+}
+
+th {
+     height: 40px;
+     width: 100px;
+     background-color: yellow;
+     color: red;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+button {
+     height: 30px;
+     width: 100px;
+     margin-left: 13px;
+}
